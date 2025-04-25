@@ -24,7 +24,7 @@ With a single terminal command, the scripts will:
 |--------|---------|
 | `energy.py` | Main controller script. Runs all other scripts in order. |
 | `energy_download.py` | Downloads your energy data and saves it to a file. *(Original source credit: [badger707/esb-smart-meter-reading-automation](https://github.com/badger707/esb-smart-meter-reading-automation), adapted by Raydex.)* |
-| `energy_timeshift.py` | Shifts all timestamps back by 30 minutes to match your local time. I have an Energia as a provider and first reading starts at 00:00 |
+| `energy_timeshift.py` | Shifts all timestamps back by 30 minutes to match your local time. I have an Energia as a provider and the first reading starts at 00:00 |
 | `energy_dnp.py` | Organizes readings into Day, Night, and Peak buckets and groups by day. |
 | `energy_30min_eur.py` | Multiplies each 30-min reading by your electricity rate and adds a Price column. |
 | `energy_dnp_eur.py` | Converts DNP (Day/Night/Peak) usage into price-based data. |
