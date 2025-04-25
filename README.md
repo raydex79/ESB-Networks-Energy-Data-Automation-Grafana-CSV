@@ -65,7 +65,7 @@ python3 energy.py
 
 You must update some settings in the scripts:
 
-- Your **MPRN**, **account number**, or **credentials** in `energy_download.py`.
+- Your **MPRN**, **username** and **password** in `energy_download.py`.
 - Your **price per kWh** in `energy_30min_eur.py` and `energy_dnp_eur.py`.
 - **Folder paths.**
 - **Filenames** if you want to use differnet name for your input and ouput files
